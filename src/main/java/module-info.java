@@ -5,4 +5,5 @@ module com.example.demo {
 
     opens com.example.projetLocation to javafx.fxml;
     exports com.example.projetLocation;
+
 }

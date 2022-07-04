@@ -3,12 +3,13 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="500.0" prefWidth="900.0" styleClass="backgrnd" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetLocation.HomeController">
+<AnchorPane prefHeight="500.0" prefWidth="900.0" styleClass="backgrnd" stylesheets="@application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetLocation.HomeController">
    <children>
       <AnchorPane layoutX="-46.0" layoutY="39.0" prefHeight="400.0" prefWidth="221.0" style="-fx-background-color: #163D69;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -26,42 +27,91 @@
                <font>
                   <Font name="System Italic" size="15.0" />
                </font>
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="27.0">
+                     <image>
+                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/home_badge.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </Button>
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Locataires" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="221.0">
 
                <font>
                   <Font name="System Italic" size="15.0" />
                </font>
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="25.0">
+                     <image>
+                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/user.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </Button>
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Locations" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="271.0">
 
                <font>
                   <Font name="System Italic" size="15.0" />
                </font>
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="27.0">
+                     <image>
+                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/keys.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </Button>
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Factures" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="371.0">
 
                <font>
                   <Font name="System Italic" size="15.0" />
                </font>
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="24.0">
+                     <image>
+                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/3208892.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </Button>
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Historiques" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="421.0">
 
                <font>
                   <Font name="System Italic" size="15.0" />
                </font>
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="24.0">
+                     <image>
+                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/169112.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </Button>
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Logements" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="171.0">
 
                <font>
                   <Font name="System Italic" size="15.0" />
                </font>
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="26.0">
+                     <image>
+                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/197722%20(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Accueil" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="321.0">
+            <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Contrats" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="321.0">
 
                <font>
                   <Font name="System Italic" size="15.0" />
                </font>
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="26.0">
+                     <image>
+                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/197717.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </Button>
             <Separator layoutY="79.0" prefHeight="6.0" prefWidth="224.0" />
             <Pane prefHeight="83.0" prefWidth="677.0" style="-fx-background-color: #112C4B;" AnchorPane.leftAnchor="224.0" AnchorPane.rightAnchor="-677.0" AnchorPane.topAnchor="0.0">

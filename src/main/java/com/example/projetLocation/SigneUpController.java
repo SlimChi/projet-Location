@@ -1,4 +1,4 @@
 package com.example.projetLocation;
 
-public class SigneoutController {
+public class SigneUpController {
 }

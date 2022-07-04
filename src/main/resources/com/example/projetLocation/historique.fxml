@@ -4,11 +4,12 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="418.0" prefWidth="677.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetLocation.HistoriqueController">
+<AnchorPane prefHeight="418.0" prefWidth="677.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetLocation.HistoriqueController">
     <children>
         <Label layoutX="31.0" layoutY="32.0" prefHeight="25.0" prefWidth="70.0" text="Logement">
             <font>
@@ -80,5 +81,10 @@
             <TableColumn prefWidth="91.0" text="Date fin" />
         </columns>
       </TableView>
+      <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="236.0" layoutY="32.0">
+         <image>
+            <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/loupe-et-icone-de-recherche-de-couleur-orange.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>

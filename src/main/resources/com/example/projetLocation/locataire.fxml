@@ -6,6 +6,7 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -34,6 +35,11 @@
         <Button layoutX="176.0" layoutY="357.0" prefHeight="25.0" prefWidth="83.0" styleClass="buttons" stylesheets="@application.css" text="Supprimer" />
       <TextField layoutX="31.0" layoutY="180.0" prefHeight="25.0" prefWidth="227.0" promptText="CIN" />
       <TextField layoutX="31.0" layoutY="285.0" prefHeight="25.0" prefWidth="227.0" promptText="Nom et prénom" />
-      <DatePicker layoutX="30.0" layoutY="220.0" prefHeight="25.0" prefWidth="227.0" promptText="Date De Naissance" />
+      <DatePicker layoutX="30.0" layoutY="220.0" prefHeight="25.0" prefWidth="227.0" promptText="Date De Naissance" style="-fx-background-color: #3386C2FF;" />
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="237.0" layoutY="77.0">
+         <image>
+            <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/loupe-et-icone-de-recherche-de-couleur-orange.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>

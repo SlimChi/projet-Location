@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="418.0" prefWidth="677.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetLocation.HistoriqueController">
+    <children>
+        <Label layoutX="31.0" layoutY="32.0" prefHeight="25.0" prefWidth="70.0" text="Logement">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <TextField layoutX="101.0" layoutY="32.0" prefHeight="25.0" prefWidth="135.0" promptText="identifiant" />
+        <TextField layoutX="109.0" layoutY="83.0" prefHeight="25.0" prefWidth="227.0" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="391.0" />
+        <ImageView fitHeight="203.0" fitWidth="180.0" layoutX="473.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="27.0" />
+        <TextField layoutX="109.0" layoutY="118.0" prefHeight="25.0" prefWidth="227.0" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="391.0" />
+        <ImageView fitHeight="262.0" fitWidth="371.0" layoutX="294.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+        <TextField layoutX="109.0" layoutY="154.0" prefHeight="25.0" prefWidth="227.0" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="391.0" />
+        <TextField layoutX="109.0" layoutY="190.0" prefHeight="25.0" prefWidth="227.0" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="391.0" />
+        <Label layoutX="14.0" layoutY="87.0" text="Adresse" textFill="#315df8" AnchorPane.leftAnchor="14.0">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="14.0" layoutY="122.0" text="Loyer" textFill="#315df8" AnchorPane.leftAnchor="14.0">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="14.0" layoutY="158.0" text="type" textFill="#315df8" AnchorPane.leftAnchor="14.0">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="14.0" layoutY="194.0" text="région" textFill="#315df8" AnchorPane.leftAnchor="14.0">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <TextField layoutX="109.0" layoutY="227.0" prefHeight="25.0" prefWidth="227.0" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="391.0" />
+        <TextField layoutX="109.0" layoutY="262.0" prefHeight="25.0" prefWidth="227.0" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="391.0" />
+        <TextField layoutX="109.0" layoutY="298.0" prefHeight="25.0" prefWidth="227.0" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="391.0" />
+        <Label layoutX="14.0" layoutY="231.0" text="Nom et prénom" textFill="#315df8" AnchorPane.leftAnchor="14.0">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="14.0" layoutY="266.0" text="Téléphone" textFill="#315df8" AnchorPane.leftAnchor="14.0">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="14.0" layoutY="302.0" text="CIN" textFill="#315df8" AnchorPane.leftAnchor="14.0">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+      <TextField layoutX="112.0" layoutY="332.0" prefHeight="25.0" prefWidth="177.0" />
+      <TextField layoutX="112.0" layoutY="368.0" prefHeight="25.0" prefWidth="177.0" />
+      <Label layoutX="17.0" layoutY="336.0" text="Téléphone" textFill="#315df8">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="372.0" text="CIN" textFill="#315df8">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TableView layoutX="315.0" layoutY="17.0" prefHeight="395.0" prefWidth="353.0" stylesheets="application.css">
+        <columns>
+          <TableColumn prefWidth="85.0" text="Logement" />
+          <TableColumn prefWidth="91.0" text="locataire" />
+            <TableColumn prefWidth="85.0" text="Date début" />
+            <TableColumn prefWidth="91.0" text="Date fin" />
+        </columns>
+      </TableView>
+    </children>
+</AnchorPane>

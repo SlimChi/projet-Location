@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="270.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER_LEFT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="280.0">
+         <children>
+            <Label prefHeight="31.0" prefWidth="119.0" text="Inscription" textFill="#b91616de">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="80.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+               <children>
+                  <TextField prefHeight="25.0" prefWidth="241.0" promptText="Nom de l'utilisateur" stylesheets="application.css" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="30.0" />
+                     </HBox.margin>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="10.0" left="5.0" top="5.0" />
+                     </padding>
+                  </TextField>
+                  <Pane prefHeight="35.0" prefWidth="60.0" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="178.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="52.0" prefWidth="254.0">
+               <children>
+                  <TextField prefHeight="25.0" prefWidth="241.0" promptText="Adresse mail" stylesheets="@application.css" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="30.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="5.0" top="5.0" />
+                     </padding>
+                  </TextField>
+                  <Pane prefHeight="35.0" prefWidth="60.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="208.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+               <children>
+                  <TextField prefHeight="25.0" prefWidth="238.0" promptText="mot de passe">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="30.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="5.0" top="5.0" />
+                     </padding>
+                  </TextField>
+                  <Pane prefHeight="35.0" prefWidth="60.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefWidth="289.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" mnemonicParsing="false" prefHeight="37.0" prefWidth="207.0" styleClass="pink-btn" stylesheets="@application.css" text="S'inscrire">
+                     <HBox.margin>
+                        <Insets left="10.0" right="55.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                     </padding>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

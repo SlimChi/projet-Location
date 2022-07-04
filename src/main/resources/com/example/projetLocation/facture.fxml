@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="418.0" prefWidth="677.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetLocation.FactureController">
+    <children>
+        <TextField layoutX="30.0" layoutY="119.0" prefHeight="25.0" prefWidth="125.0" promptText="Locataire" />
+        <ImageView fitHeight="203.0" fitWidth="180.0" layoutX="473.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="27.0" />
+        <ImageView fitHeight="355.0" fitWidth="340.0" layoutX="325.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+        <TextField layoutX="30.0" layoutY="178.0" prefHeight="25.0" prefWidth="125.0" promptText="Adresse de logement" />
+        <TextField layoutX="161.0" layoutY="119.0" prefHeight="25.0" prefWidth="125.0" promptText="Logement" AnchorPane.leftAnchor="161.0" />
+        <TextField layoutX="161.0" layoutY="178.0" prefHeight="25.0" prefWidth="125.0" promptText="Région" />
+        <Label layoutX="30.0" layoutY="92.0" text="Adresse" textFill="#1078e0e3">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="164.0" layoutY="91.0" text="Région" textFill="#1078e0e3" AnchorPane.leftAnchor="164.0">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="30.0" layoutY="153.0" prefHeight="17.0" prefWidth="125.0" text="Locataire" textFill="#1078e0e3">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="164.0" layoutY="153.0" text="Typre" textFill="#1078e0e3" AnchorPane.leftAnchor="164.0" AnchorPane.rightAnchor="472.0">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <TextField layoutX="33.0" layoutY="242.0" prefHeight="25.0" prefWidth="125.0" promptText="type" />
+        <TextField layoutX="33.0" layoutY="302.0" prefHeight="25.0" prefWidth="125.0" promptText="Montant à payer" AnchorPane.leftAnchor="33.0" />
+        <TextField layoutX="164.0" layoutY="242.0" prefHeight="25.0" prefWidth="125.0" promptText="Fofaitaire" />
+        <Label layoutX="30.0" layoutY="215.0" text="Loyer" textFill="#1078e0e3">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="164.0" layoutY="214.0" text="Fofaitaire" textFill="#1078e0e3" AnchorPane.leftAnchor="164.0">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="33.0" layoutY="277.0" prefHeight="17.0" prefWidth="125.0" text="Montant à payer" textFill="#1078e0e3">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <Button layoutX="261.0" layoutY="377.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="169.0" styleClass="pink-btn" stylesheets="application.css" text="Imprimer">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+      <ComboBox layoutX="168.0" layoutY="29.0" prefHeight="25.0" prefWidth="115.0" promptText="Locataire" />
+      <ComboBox layoutX="30.0" layoutY="29.0" prefHeight="25.0" prefWidth="115.0" promptText="Logement" />
+    </children>
+</AnchorPane>

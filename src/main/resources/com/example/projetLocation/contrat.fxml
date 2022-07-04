@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="420.0" prefWidth="700.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetLocation.ContratController">
+    <children>
+
+        <TextField layoutX="31.0" layoutY="98.0" prefHeight="25.0" prefWidth="125.0" promptText="Locataire" />
+        <ImageView fitHeight="203.0" fitWidth="180.0" layoutX="473.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="27.0" />
+      <ImageView fitHeight="359.0" fitWidth="340.0" layoutX="325.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField layoutX="31.0" layoutY="157.0" prefHeight="25.0" prefWidth="125.0" promptText="Adresse de logement" />
+      <TextField layoutX="162.0" layoutY="98.0" prefHeight="25.0" prefWidth="125.0" promptText="Logement" AnchorPane.leftAnchor="162.0" />
+      <TextField layoutX="162.0" layoutY="157.0" prefHeight="25.0" prefWidth="125.0" promptText="Région" />
+      <Label layoutX="31.0" layoutY="71.0" text="Locataire" textFill="#1078e0e3">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="70.0" text="Logement" textFill="#1078e0e3" AnchorPane.leftAnchor="165.0">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="132.0" prefHeight="17.0" prefWidth="125.0" text="Adresse de logement" textFill="#1078e0e3">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="132.0" text="Région" textFill="#1078e0e3" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="471.0">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="34.0" layoutY="221.0" prefHeight="25.0" prefWidth="125.0" promptText="type" />
+      <TextField layoutX="34.0" layoutY="281.0" prefHeight="25.0" prefWidth="125.0" promptText="Forfaitaire" AnchorPane.leftAnchor="34.0" />
+      <TextField layoutX="165.0" layoutY="221.0" prefHeight="25.0" prefWidth="125.0" promptText="Loyer" />
+      <TextField layoutX="165.0" layoutY="281.0" prefHeight="25.0" prefWidth="125.0" promptText="Montant à payer" />
+      <Label layoutX="31.0" layoutY="194.0" text="Type" textFill="#1078e0e3">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="193.0" text="Loyer" textFill="#1078e0e3" AnchorPane.leftAnchor="165.0">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="256.0" prefHeight="17.0" prefWidth="125.0" text="Forfaitaire" textFill="#1078e0e3">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="256.0" text="Montant à payer" textFill="#1078e0e3" AnchorPane.leftAnchor="165.0">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="34.0" layoutY="345.0" prefHeight="25.0" prefWidth="125.0" promptText="Date début" />
+      <TextField layoutX="165.0" layoutY="345.0" prefHeight="25.0" prefWidth="125.0" promptText="Date fin" />
+      <Label layoutX="34.0" layoutY="320.0" prefHeight="17.0" prefWidth="125.0" text="Date début" textFill="#1078e0e3">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="320.0" text="Date fin" textFill="#1078e0e3">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="261.0" layoutY="377.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="169.0" styleClass="pink-btn" stylesheets="application.css" text="Imprimer">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ComboBox layoutX="31.0" layoutY="29.0" prefHeight="25.0" prefWidth="251.0" promptText="Location" />
+    </children>
+</AnchorPane>

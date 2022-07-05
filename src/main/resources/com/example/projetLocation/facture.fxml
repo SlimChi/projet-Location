@@ -63,9 +63,9 @@
          <graphic>
             <Pane prefHeight="32.0" prefWidth="34.0">
                <children>
-                  <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="-6.0" layoutY="3.0">
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutY="5.0">
                      <image>
-                        <Image url="@../../../images/printer.png" />
+                        <Image url="@../../../images/printer%20(1).png" />
                      </image>
                   </ImageView>
                </children>

@@ -12,20 +12,15 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="374.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="374.0" prefWidth="274.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="374.0" fitWidth="274.0">
-         <image>
-            <Image url="@../../../images/bck.jpg" />
-         </image>
-      </ImageView>
       <VBox alignment="CENTER_LEFT" layoutY="103.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="271.0" prefWidth="274.0">
          <children>
             <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
                <children>
                   <TextField prefHeight="25.0" prefWidth="273.0" promptText="Nom de l'utilisateur" stylesheets="application.css" HBox.hgrow="ALWAYS">
                      <HBox.margin>
-                        <Insets bottom="20.0" left="20.0" right="30.0" />
+                        <Insets bottom="20.0" left="5.0" right="30.0" />
                      </HBox.margin>
                      <opaqueInsets>
                         <Insets />
@@ -33,9 +28,9 @@
                   </TextField>
                   <Pane prefHeight="10.0" prefWidth="50.0">
                      <children>
-                        <ImageView fitHeight="25.0" fitWidth="23.0" layoutX="-27.0" layoutY="-2.0">
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="-27.0" layoutY="45.0">
                            <image>
-                              <Image url="@../../../../../../../../../../Users/Afpa/Downloads/working%20(1).png" />
+                              <Image url="@../../../images/gmail.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -49,14 +44,14 @@
                <children>
                   <TextField prefHeight="25.0" prefWidth="273.0" promptText="Adresse mail" stylesheets="@application.css" HBox.hgrow="ALWAYS">
                      <HBox.margin>
-                        <Insets bottom="20.0" left="20.0" right="30.0" />
+                        <Insets bottom="20.0" left="5.0" right="30.0" />
                      </HBox.margin>
                   </TextField>
                   <Pane prefHeight="10.0" prefWidth="50.0">
                      <children>
-                        <ImageView fitHeight="18.0" fitWidth="23.0" layoutX="-27.0" layoutY="5.0">
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="-27.0" layoutY="-47.0">
                            <image>
-                              <Image url="@../../../../../../../../../../Users/Afpa/Downloads/gmail.png" />
+                              <Image url="@../../../images/working%20(1).png" />
                            </image>
                         </ImageView>
                      </children>
@@ -67,14 +62,14 @@
                <children>
                   <TextField prefHeight="25.0" prefWidth="270.0" promptText="mot de passe">
                      <HBox.margin>
-                        <Insets bottom="20.0" left="20.0" right="30.0" />
+                        <Insets bottom="20.0" left="5.0" right="30.0" />
                      </HBox.margin>
                   </TextField>
                   <Pane prefHeight="10.0" prefWidth="50.0">
                      <children>
-                        <ImageView fitHeight="25.0" fitWidth="23.0" layoutX="-27.0" layoutY="2.0">
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="-22.0">
                            <image>
-                              <Image url="@../../../../../../../../../../Users/Afpa/Downloads/password.png" />
+                              <Image url="@../../../images/password.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -85,7 +80,7 @@
                <children>
                   <Pane prefHeight="200.0" prefWidth="200.0">
                      <children>
-                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="63.0" maxHeight="1.7976931348623157E308" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" styleClass="pink-btn" stylesheets="@application.css" text="Se Connecter">
+                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="19.0" layoutY="53.0" maxHeight="1.7976931348623157E308" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" styleClass="trans-btn-white-border" stylesheets="@application.css" text="S'inscrire">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
@@ -99,10 +94,15 @@
             <Insets bottom="50.0" />
          </padding>
       </VBox>
-      <Label layoutX="71.0" layoutY="-3.0" prefHeight="45.0" prefWidth="174.0" text="INSCRIPTION" textFill="#b91616de">
+      <Label layoutX="71.0" layoutY="-3.0" prefHeight="45.0" prefWidth="174.0" text="INSCRIPTION" textFill="#0598ffde">
          <font>
             <Font name="System Bold" size="21.0" />
          </font>
       </Label>
+      <ImageView fitHeight="78.0" fitWidth="85.0" layoutX="95.0" layoutY="37.0">
+         <image>
+            <Image url="@../../../images/inscription-a-levenement-en-ligne.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

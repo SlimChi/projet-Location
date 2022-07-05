@@ -2,12 +2,12 @@
     -fx-background-color: transparent ;
 }
 .pane{
-    -fx-background-color: #33698F;
+    -fx-background-color: rgb(229, 241, 255);
 }
 .trans-btn-white-border{
-    -fx-background-color: transparent ;
+    -fx-background-color: #0598FF ;
     -fx-background-radius: 5px;
-    -fx-border-color: #cccccc;
+    -fx-border-color: rgba(14, 90, 255, 0.78);
     -fx-border-radius: 10px;
     -fx-border-width: 1px;
     -fx-text-fill: whitesmoke ;

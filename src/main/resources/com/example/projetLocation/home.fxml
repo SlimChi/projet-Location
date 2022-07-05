@@ -11,7 +11,7 @@
 
 <AnchorPane prefHeight="500.0" prefWidth="900.0" styleClass="backgrnd" stylesheets="@application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetLocation.HomeController">
    <children>
-      <AnchorPane layoutX="-46.0" layoutY="39.0" prefHeight="400.0" prefWidth="221.0" style="-fx-background-color: #163D69;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane layoutX="-7.0" layoutY="-8.0" prefHeight="508.0" prefWidth="231.0" style="-fx-background-color: #163D69;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-7.0" AnchorPane.topAnchor="-8.0">
          <children>
             <Pane prefHeight="83.0" prefWidth="224.0" style="-fx-background-color: #112C4B;">
                <children>
@@ -22,7 +22,7 @@
                   </Label>
                </children>
             </Pane>
-            <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Accueil" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="121.0">
+            <Button alignment="BASELINE_LEFT" onMouseClicked="#accueil" styleClass="pink-btn" stylesheets="@application.css" text="Accueil" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="121.0">
 
                <font>
                   <Font name="System Bold Italic" size="15.0" />
@@ -35,7 +35,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Locataires" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="221.0">
+            <Button alignment="BASELINE_LEFT" onMouseClicked="#locataire" styleClass="pink-btn" stylesheets="@application.css" text="Locataires" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="221.0">
 
                <font>
                   <Font name="System Bold Italic" size="15.0" />
@@ -48,7 +48,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Locations" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="271.0">
+            <Button alignment="BASELINE_LEFT" onMouseClicked="#location" styleClass="pink-btn" stylesheets="@application.css" text="Locations" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="271.0">
 
                <font>
                   <Font name="System Bold Italic" size="15.0" />
@@ -61,7 +61,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Factures" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="371.0">
+            <Button alignment="BASELINE_LEFT" onMouseClicked="#facture" styleClass="pink-btn" stylesheets="@application.css" text="Factures" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="371.0">
 
                <font>
                   <Font name="System Bold Italic" size="15.0" />
@@ -74,7 +74,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Historiques" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="421.0">
+            <Button alignment="BASELINE_LEFT" onMouseClicked="#historique" styleClass="pink-btn" stylesheets="@application.css" text="Historiques" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="421.0">
 
                <font>
                   <Font name="System Bold Italic" size="15.0" />
@@ -87,7 +87,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Logements" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="171.0">
+            <Button alignment="BASELINE_LEFT" onMouseClicked="#logement" styleClass="pink-btn" stylesheets="@application.css" text="Logements" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="171.0">
 
                <font>
                   <Font name="System Bold Italic" size="15.0" />
@@ -100,7 +100,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Contrats" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="321.0">
+            <Button alignment="BASELINE_LEFT" onMouseClicked="#contrat" styleClass="pink-btn" stylesheets="@application.css" text="Contrats" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="321.0">
 
                <font>
                   <Font name="System Bold Italic" size="15.0" />
@@ -126,6 +126,6 @@
             </Pane>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="223.0" layoutY="129.0" prefHeight="418.0" prefWidth="677.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="223.0" AnchorPane.rightAnchor="0.0" />
+      <AnchorPane fx:id="root" layoutX="223.0" layoutY="129.0" prefHeight="426.0" prefWidth="677.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="223.0" AnchorPane.rightAnchor="0.0" />
    </children>
 </AnchorPane>

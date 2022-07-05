@@ -25,12 +25,12 @@
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Accueil" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="121.0">
 
                <font>
-                  <Font name="System Italic" size="15.0" />
+                  <Font name="System Bold Italic" size="15.0" />
                </font>
                <graphic>
-                  <ImageView fitHeight="26.0" fitWidth="27.0">
+                  <ImageView fitHeight="20.0" fitWidth="20.0">
                      <image>
-                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/home_badge.png" />
+                        <Image url="@../../../images/house.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -38,12 +38,12 @@
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Locataires" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="221.0">
 
                <font>
-                  <Font name="System Italic" size="15.0" />
+                  <Font name="System Bold Italic" size="15.0" />
                </font>
                <graphic>
-                  <ImageView fitHeight="22.0" fitWidth="25.0">
+                  <ImageView fitHeight="20.0" fitWidth="20.0">
                      <image>
-                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/user.png" />
+                        <Image url="@../../../images/man.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -51,12 +51,12 @@
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Locations" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="271.0">
 
                <font>
-                  <Font name="System Italic" size="15.0" />
+                  <Font name="System Bold Italic" size="15.0" />
                </font>
                <graphic>
-                  <ImageView fitHeight="22.0" fitWidth="27.0">
+                  <ImageView fitHeight="20.0" fitWidth="20.0">
                      <image>
-                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/keys.png" />
+                        <Image url="@../../../images/keys.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -64,12 +64,12 @@
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Factures" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="371.0">
 
                <font>
-                  <Font name="System Italic" size="15.0" />
+                  <Font name="System Bold Italic" size="15.0" />
                </font>
                <graphic>
-                  <ImageView fitHeight="20.0" fitWidth="24.0">
+                  <ImageView fitHeight="20.0" fitWidth="20.0">
                      <image>
-                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/3208892.png" />
+                        <Image url="@../../../images/calculatrice.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -77,12 +77,12 @@
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Historiques" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="421.0">
 
                <font>
-                  <Font name="System Italic" size="15.0" />
+                  <Font name="System Bold Italic" size="15.0" />
                </font>
                <graphic>
-                  <ImageView fitHeight="23.0" fitWidth="24.0">
+                  <ImageView fitHeight="20.0" fitWidth="20.0">
                      <image>
-                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/169112.png" />
+                        <Image url="@../../../images/historique.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -90,12 +90,12 @@
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Logements" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="171.0">
 
                <font>
-                  <Font name="System Italic" size="15.0" />
+                  <Font name="System Bold Italic" size="15.0" />
                </font>
                <graphic>
-                  <ImageView fitHeight="27.0" fitWidth="26.0">
+                  <ImageView fitHeight="20.0" fitWidth="20.0">
                      <image>
-                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/197722%20(1).png" />
+                        <Image url="@../../../images/loger.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -103,12 +103,12 @@
             <Button alignment="BASELINE_LEFT" styleClass="pink-btn" stylesheets="@application.css" text="Contrats" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="321.0">
 
                <font>
-                  <Font name="System Italic" size="15.0" />
+                  <Font name="System Bold Italic" size="15.0" />
                </font>
                <graphic>
-                  <ImageView fitHeight="23.0" fitWidth="26.0">
+                  <ImageView fitHeight="20.0" fitWidth="20.0">
                      <image>
-                        <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/197717.png" />
+                        <Image url="@../../../images/contrat.png" />
                      </image>
                   </ImageView>
                </graphic>

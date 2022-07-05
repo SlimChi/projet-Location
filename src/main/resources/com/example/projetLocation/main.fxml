@@ -13,18 +13,18 @@
    <children>
       <Pane prefHeight="410.0" prefWidth="712.0" styleClass="pane" stylesheets="@application.css" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="35.0">
          <children>
-            <Label layoutX="445.0" layoutY="66.0" stylesheets="application.css" text="êtes-vous inscrit?" textFill="WHITE">
+            <Label layoutX="445.0" layoutY="66.0" stylesheets="application.css" text="êtes-vous inscrit ?" textFill="WHITE">
                <font>
-                  <Font size="18.0" />
+                  <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Button fx:id="btn_seConnecter" layoutX="470.0" layoutY="190.0" mnemonicParsing="false" onAction="#openSigneIn" styleClass="trans-btn-white-border" stylesheets="application.css" text="Se Connecter" textFill="WHITE" />
+            <Button fx:id="btn_seConnecter" layoutX="466.0" layoutY="190.0" mnemonicParsing="false" onAction="#openSigneIn" styleClass="trans-btn-white-border" stylesheets="application.css" text="Se Connecter" textFill="WHITE" />
             <Label layoutX="78.0" layoutY="60.0" prefHeight="27.0" prefWidth="221.0" text="Vous n'êtes pas inscrit?" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button fx:id="btn_sinscrire" layoutX="84.0" layoutY="190.0" mnemonicParsing="false" onAction="#openSigneUp" styleClass="trans-btn-white-border" stylesheets="application.css" text="S'inscrire" textFill="WHITE" />
+            <Button fx:id="btn_sinscrire" layoutX="84.0" layoutY="190.0" mnemonicParsing="false" onAction="#openSigneUp" prefHeight="25.0" prefWidth="71.0" styleClass="trans-btn-white-border" stylesheets="application.css" text="S'inscrire" textFill="WHITE" />
             <VBox fx:id="VBox" layoutX="58.0" layoutY="-15.0" prefHeight="374.0" prefWidth="274.0" styleClass="white-pane" stylesheets="@application.css">
                <children>
                   <ImageView fitHeight="374.0" fitWidth="274.0">

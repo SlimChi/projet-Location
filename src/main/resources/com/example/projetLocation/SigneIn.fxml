@@ -12,75 +12,89 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="270.0" prefWidth="250.0" styleClass="backgrnd" stylesheets="@application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetLocation.HomeController">
+<AnchorPane prefHeight="374.0" prefWidth="274.0" styleClass="backgrnd" stylesheets="@application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetLocation.HomeController">
 
       <children>
-      <ImageView fitHeight="313.0" fitWidth="250.0">
+      <ImageView fitHeight="374.0" fitWidth="274.0">
          <image>
-            <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/vente-immobiliere-obligations.jpg" />
+            <Image url="@../../../images/bck.jpg" />
          </image>
       </ImageView>
       <VBox alignment="CENTER" layoutX="-1.0" prefHeight="313.0" prefWidth="251.0" styleClass="parent" stylesheets="@application.css">
          <children>
-            <Label text="Se connecter" textAlignment="CENTER" textFill="#d11111">
-               <font>
-                  <Font name="Arial Bold" size="24.0" />
-               </font>
-               <VBox.margin>
-                  <Insets bottom="30.0" right="40.0" />
-               </VBox.margin>
-            </Label>
-            <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="35.0" prefWidth="322.0">
+            <Pane prefHeight="50.0" prefWidth="50.0">
                <children>
-                  <TextField prefHeight="25.0" prefWidth="200.0" promptText="Nom de l'utilisateur" HBox.hgrow="ALWAYS">
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="65.0" layoutY="-57.0" text="Se connecter" textAlignment="CENTER" textFill="#d11111">
+                           <font>
+                              <Font name="Arial Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="50.0" fitWidth="52.0" layoutX="193.0" layoutY="-2.0">
+                     <image>
+                        <Image url="@../../../../../../../../../../Users/Afpa/Downloads/connexion.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="55.0" prefWidth="250.0" stylesheets="@application.css">
+               <children>
+                  <TextField prefHeight="25.0" prefWidth="250.0" promptText="Nom de l'utilisateur" HBox.hgrow="ALWAYS">
                      <HBox.margin>
-                        <Insets bottom="10.0" left="5.0" right="35.0" top="20.0" />
+                        <Insets right="5.0" />
                      </HBox.margin>
                   </TextField>
                   <Pane prefHeight="35.0" prefWidth="0.0">
                      <children>
-                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="-30.0" layoutY="-1.0">
+                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="-4.0" layoutY="13.0">
                            <image>
-                              <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/user.png" />
+                              <Image url="@../../../../../../../../../../Users/Afpa/Downloads/working%20(1).png" />
                            </image>
                         </ImageView>
                      </children>
                   </Pane>
                </children>
                <VBox.margin>
-                  <Insets />
+                  <Insets left="5.0" />
                </VBox.margin>
             </HBox>
-            <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+            <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="273.0">
                <children>
-                  <TextField prefHeight="25.0" prefWidth="277.0" promptText="mot de passe">
+                  <TextField prefHeight="25.0" prefWidth="250.0" promptText="Nom de l'utilisateur">
                      <HBox.margin>
-                        <Insets left="5.0" right="35.0" />
+                        <Insets left="5.0" right="5.0" />
                      </HBox.margin>
                   </TextField>
                   <Pane prefHeight="35.0" prefWidth="0.0">
                      <children>
-                        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="-30.0" layoutY="-1.0">
+                        <ImageView fitHeight="27.0" fitWidth="25.0" layoutX="-3.0" layoutY="3.0">
                            <image>
-                              <Image url="@../../../../../../../../../../Users/hp/Pictures/javafx/1f512.png" />
+                              <Image url="@../../../../../../../../../../Users/Afpa/Downloads/password.png" />
                            </image>
                         </ImageView>
                      </children>
                   </Pane>
                </children>
             </HBox>
-            <HBox alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="253.0" stylesheets="@application.css">
+            <HBox alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="273.0" stylesheets="@application.css">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: FFFFFF;" text="Mot de passe oublié ?">
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="382.0" style="-fx-background-color: FFFFFF;" text="Mot de passe oublié ?">
                      <HBox.margin>
-                        <Insets right="20.0" />
+                        <Insets left="25.0" />
                      </HBox.margin>
                   </Button>
-                  <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxHeight="1.7976931348623157E308" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" styleClass="pink-btn" stylesheets="@application.css" text="Connecter">
-                     <HBox.margin>
-                        <Insets right="20.0" />
-                     </HBox.margin>
-                  </Button>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="-135.0" layoutY="100.0" maxHeight="1.7976931348623157E308" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" styleClass="pink-btn" stylesheets="@application.css" text="Se Connecter">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
                </children>
                <opaqueInsets>
                   <Insets />
